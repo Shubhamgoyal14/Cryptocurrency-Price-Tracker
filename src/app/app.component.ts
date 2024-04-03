@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'crypT13App';
+
+  selectedCurrency : string = "USD";
+  constructor(){
+
+  }
+  sendCurrency(event:string){
+    console.log(event);
+  }
 }
